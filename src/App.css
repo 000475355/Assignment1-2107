@@ -1,0 +1,46 @@
+.container {
+  padding: 80px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(159, 207, 222);
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 100px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 50px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: #c9dae2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.user-details p {
+  margin: 5px 0 0;
+  color: rgb(240, 89, 89);
+}
